@@ -28,7 +28,8 @@
     "body-parser": "^1.20.2",
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
