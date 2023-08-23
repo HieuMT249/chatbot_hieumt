@@ -35,6 +35,8 @@ let postWebhook = (req, res) => {
   // Send a 200 OK response if this is a page webhook
 
   if (body.object === "page") {
+    console.log(">>>> VERIFY ",VERIFY_TOKEN);
+
     body.entry.forEach(function (entry) {
       // Gets the body of the webhook event
       let webhook_event = entry.messaging[0];
